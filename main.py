@@ -6,8 +6,6 @@ from config import info
 
 import Data as d
 
-test = 814898129005838346
-
 bot = commands.Bot(command_prefix="?")
 
 #moderations commands
@@ -40,4 +38,4 @@ async def test(ctx, id):
 
     await ctx.send(embed=emb)
 
-bot.run(info["token"]) #Nzk3NDcwNzExMjQ1MDQ1Nzcw.X_m8eQ.sadwsoTCRTekGZfIkU4Ikpy21s0
+bot.run(info["token"]) 
